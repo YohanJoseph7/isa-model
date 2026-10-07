@@ -1,3 +1,7 @@
+
+#This comment is just to check if add, commit and push are working in git
+#Another additional comment, coz why not
+
 def density(h):
     """Returns ISA air density in kg/m^3 at altitude h in metres."""
     rho_SL = 1.225
@@ -18,3 +22,6 @@ def pressure(h):
     R  = 287.05
     L  = 0.0065
     return p0 * (T / T0) ** (g / (L * R))
+
+heights = [0, 5000, 10000]
+
